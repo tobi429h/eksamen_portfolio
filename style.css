@@ -57,7 +57,7 @@ h3 {
 }
 
 h4 {
-    margin-left: 15px;
+    margin-left: 40px;
     margin-bottom: 15px;
     padding-top: 15px;
     padding-bottom: 20px;
@@ -67,7 +67,7 @@ h4 {
 }
 
 p {
-    margin-left: 15px;
+    margin-left: 40px;
     margin-right: 15px;
     font-size: 1rem;
     line-height: 20px;
@@ -76,7 +76,7 @@ p {
 
 /* ------ Link ------*/
 a {
-    margin-left: 15px;
+    margin-left: 40px;
     color: #5F0909;
 
 }
@@ -161,6 +161,7 @@ a:hover {
 
 .col5 img {
     margin-bottom: 35px;
+    height: auto;
 }
 
 .col6 {
@@ -521,12 +522,15 @@ li a:hover {
             grid-row-end: 3;
             padding-left: 10px;
             text-align: center;
+            border: solid 0.8px black;
+            border-radius: 1%;
         }
         .grid_item7 iframe {
-            width: 90%;
+            width: 80%;
             height: 300px;
 
         }
+
         .grid_item8 {
             grid-column-start: 2.5;
             grid-column-end: 4;
@@ -534,6 +538,7 @@ li a:hover {
             grid-row-end: 3;
             text-align: center;
             padding-right: 75px;
+            border: solid 0.8px black;
         }
         .grid_item8 iframe {
             width: 90%;
@@ -658,7 +663,9 @@ li a:hover {
             color: #B5A9A9;
             text-decoration: underline;
         }
-
-
+        .Favikon {
+            height: 300px;
+            width: 100px;
+        }
 
     }

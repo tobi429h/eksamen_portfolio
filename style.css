@@ -38,8 +38,21 @@ video {
 body {
     background-color: #B5A9A9;
 }
+#splash {
+    background-image: url(img/splashbillede.png);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    max-width: none;
+}
 
 /*------- Font ------*/
+
+h1 {
+    font-family: 'Zilla Slab', serif;
+}
 
 h2 {
     padding-top: 25px;
@@ -70,19 +83,21 @@ p {
     margin-left: 40px;
     margin-right: 15px;
     font-size: 1rem;
-    line-height: 20px;
+    line-height: 25px;
     font-family: 'Zilla Slab', serif;
 }
 
 /* ------ Link ------*/
 a {
-    margin-left: 40px;
+    margin-left: 15px;
     color: #5F0909;
-
+}
+#grundlaeggende_web a {
+    margin-left: 40px;
 }
 
 a:hover {
-    color: blue;
+    color: #014AD3;
 }
 
 /*#Portfolio #grundlaeggende_web #grundleaggende_ux #grundleaggende_animation #grundleaggende_indhold a {
@@ -102,47 +117,58 @@ a:hover {
 .col1 {
     /*background-color: white;
     outline-color: black;*/
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
     line-height: 25px;
     border-radius: 15px;
     padding-bottom: 50px;
-    border: solid 2px black;
-
-
+    /*border: solid 2px black;*/
+    text-align: left;
+}
+.col1 h1 {
+    text-align: right;
+}
+.col1 h3 {
+    font-size: 5em;
+    text-align: center;
+    padding-top: 50px;
 }
 
 .col2 {
     background-color: white;
     outline-color: black;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
     padding-top: 50px;
     padding-bottom: 50px;
     border-radius: 15px;
     border: solid 2px black;
+    text-align: center;
 }
 
 .col3 {
     background-color: white;
     outline-color: black;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
     margin-top: 100px;
     padding-top: 30px;
     padding-bottom: 35px;
     border-radius: 15px;
     border: solid 2px black;
 }
+
 .col3 img {
-    filter: grayscale(25%);
+    height: auto;
+    padding-top: 25px;
 }
+
 
 .col4 {
     /*background-color: white;*/
     outline-color: black;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
     padding-top: 50px;
     padding-bottom: 50px;
     border-radius: 15px;
@@ -151,8 +177,8 @@ a:hover {
 
 .col5 {
     background-color: white;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
     padding-top: 50px;
     padding-bottom: 50px;
     border-radius: 15px;
@@ -167,8 +193,8 @@ a:hover {
 .col6 {
     background-color: white;
     outline-color: black;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
     padding-top: 50px;
     padding-bottom: 50px;
     border-radius: 15px;
@@ -179,8 +205,8 @@ a:hover {
 .col7 {
     background-color: white;
     outline-color: black;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
     padding-top: 50px;
     padding-bottom: 50px;
     border-radius: 15px;
@@ -195,8 +221,8 @@ a:hover {
 .col8 {
     background-color: white;
     outline-color: black;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
     padding-top: 50px;
     padding-bottom: 50px;
     border-radius: 15px;
@@ -209,6 +235,9 @@ a:hover {
     margin-bottom: 35px;
     margin-left: 45px;
 }
+.col8 img {
+    height: auto;
+}
 
 
 
@@ -217,11 +246,17 @@ a:hover {
 }
 }
 .grid_item5 {
-    margin-left: 45px;
+    margin-left: 100px;
 }
 .grid_item12 {
     margin-left: 45px;
-
+}
+.grid_item15 {
+    margin-left: 45px;
+}
+.grid_item18 {
+    padding-top: 45px;
+    padding-bottom: 45px;
 }
 
 /* ----- Portfolio ----- */
@@ -288,22 +323,22 @@ nav a {
     width: 100%;
     color: black;
     text-decoration: none;
-    font-size: 1.3em;
+    font-size: 1.2em;
     display: block;
     top: -8vw;
     flex-direction: column;
     text-decoration: underline;
     text-decoration-color: white;
     font-family: 'Days One', sans-serif;
-    padding-bottom: 100px;
+   /* padding-bottom: 100px;*/
 
 }
 
 ul {
-    padding-top: 10px;
+    padding-right: 10px;
     float: right;
     position: relative;
-    top: 40px;
+    top: 10px;
     right: -8px;
     list-style-type: none;
 }
@@ -433,7 +468,7 @@ li a:hover {
     @media only screen and (min-width: 800px) {
         .overskrift {
             font-size: 1.3rem;
-            padding-left: 600px;
+            padding-left: 550px;
             padding-bottom: 10px;
             padding-top: 100px;
             text-align: left;
@@ -488,13 +523,24 @@ li a:hover {
 
         .grid_item3 {
             grid-column-start: 1;
-            grid-column-end: 2;
-
+            grid-column-end: 5;
+            grid-row-start: 1;
+            grid-row-end: 2;
+            width: 100%;
+        }
+        grid_item3 img {
+            filter: grayscale(30%);
         }
 
         .grid_item4 {
-            grid-column-start: 2;
-            grid-column-end: 3;
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 2;
+            grid-row-end: 3;
+            height: auto;
+            text-align: center;
+            padding-top: 50px;
+            /*padding-left: 50px;*/
         }
 
         .grid_container3 {
@@ -517,13 +563,11 @@ li a:hover {
         }
         .grid_item7 {
             grid-column-start: 1;
-            grid-column-end: 3;
-            grid-row-start: 1;
-            grid-row-end: 3;
+            grid-column-end: 2.5;
+            grid-row-start: 3;
+            grid-row-end: 4;
             padding-left: 10px;
             text-align: center;
-            border: solid 0.8px black;
-            border-radius: 1%;
         }
         .grid_item7 iframe {
             width: 80%;
@@ -532,13 +576,12 @@ li a:hover {
         }
 
         .grid_item8 {
-            grid-column-start: 2.5;
-            grid-column-end: 4;
-            grid-row-start: 1;
-            grid-row-end: 3;
+            grid-column-start: 3.5;
+            grid-column-end: 5;
+            grid-row-start: 3;
+            grid-row-end: 4    ;
             text-align: center;
             padding-right: 75px;
-            border: solid 0.8px black;
         }
         .grid_item8 iframe {
             width: 90%;
@@ -556,7 +599,10 @@ li a:hover {
             grid-row-start: 1;
             grid-row-end: 3;
             text-align: center;
-            padding-left: 50px;
+            padding-left: 130px;
+        }
+        .grid_item9 iframe {
+            width: 100%;
         }
 
         .grid_item10 {
@@ -569,8 +615,8 @@ li a:hover {
         .grid_item11 {
             grid-column-start: 3;
             grid-column-end: 4;
-            grid-row-start: 2;
-            grid-row-end: 3;
+            grid-row-start: 3;
+            grid-row-end: 4;
             text-align: right;
             padding-top: 100px;
             padding-right: 100px;
@@ -593,6 +639,89 @@ li a:hover {
             grid-column-end: 2.5;
             text-align: left;
         }
+        .grid_container7 {
+            display: grid;
+            grid-column-gap: 25px;
+        }
+        .grid_item14 {
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 1;
+            grid-row-end: 2;
+            width: 65%;
+            padding-left: 100px;
+            line-height: 2.5px;
+        }
+        .grid_item15 {
+            grid-column-start: 2.5;
+            grid-column-end: 3.5;
+            grid-row-start: 1;
+            grid-row-end: 2;
+            height: 550px;
+            margin-right: 200px;
+            margin-bottom: 50px;
+            text-align: left;
+        }
+        .grid_item16 {
+            width: 50%;
+            padding-bottom: 100px;
+        }
+        .grid_item17 {
+            width: 50%;
+            grid-column-start: 1;
+            grid-column-end: 3.5;
+            grid-row-start: 1;
+            grid-row-end: 2;
+            margin-bottom: 100px;
+            width: 100%;
+        }
+        .grid_item18 {
+            width: 100%;
+            height: auto;
+            grid-column-start: 1    ;
+            grid-column-end: 5;
+            grid-row-start: 2;
+            grid-row-end: 3;
+            padding-left: 50px;
+            padding-bottom: 100px;
+        }
+        .grid_container8 {
+            display: grid;
+            grid-column-gap: 25px;
+        }
+        .grid_item19 {
+            grid-column-start: 1;
+            grid-column-end: 2.5;
+            grid-row-start: 1;
+            grid-row-end: 2;
+        }
+        .grid_item20 {
+            grid-column-start: 3;
+            grid-column-end: 5;
+            grid-row-start: 1;
+            grid-row-end: 2;
+        }
+        .grid_item21 {
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 2;
+            grid-row-end: 3;
+        }
+        .grid_item22 {
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 2;
+            grid-row-end: 3;
+            text-align: center;
+            padding-top: 50px;
+        }
+        .grid_item23 {
+            grid-column-start: 4;
+            grid-column-end: 5;
+            grid-row-start: 1;
+            grid-row-end: 2;
+        }
+
 
         iframe {
             height: 655px;
@@ -656,6 +785,7 @@ li a:hover {
             top: 0;
             background-color: white;
             text-decoration: underline;
+            text-align: left;
 
         }
 
@@ -663,9 +793,10 @@ li a:hover {
             color: #B5A9A9;
             text-decoration: underline;
         }
-        .Favikon {
-            height: 300px;
-            width: 100px;
+        #splash h1 {
+            text-align: right;
+            padding-right: 25px;
         }
+
 
     }

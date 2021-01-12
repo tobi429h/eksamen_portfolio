@@ -26,13 +26,13 @@ video {
     text-align: center;
 }
 
-#grundleaggende_ux iframe {
+#grundlaaggende_ux iframe {
     margin-left: 3px;
     margin-right: 3px;
     text-align: center;
-    height: 650px;
+    height: auto;
 }
-#grundleaggende_animation iframe {
+#grundlaeggende_animation iframe {
     margin-left: 35px;
 }
 
@@ -235,8 +235,10 @@ a:hover {
     padding-top: 15px;
     margin-bottom: 35px;
     margin-left: 25px;
+    margin-right: 25px;
 }
 .col8 img {
+    width: 100%
     height: auto;
 }
 
@@ -245,20 +247,37 @@ a:hover {
 .col4 img {
     filter: grayscale(25%);
 }
-
+.grid_container3 iframe {
+    height: 500px;
+}
+.grid_container7 iframe {
+    height: 500px;
+}
+.grid_item7 {
+    margin-right: 25px;
+}
+.grid_item8 {
+    margin-right: 25px;
+}
 .col6 grid_item5 iframe{
+    width: 100%
     margin-left: 25px;
     padding-left: 25px;
 }
 .grid_item12 {
-    margin-left: 45px;
+    width: 100%;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 .grid_item15 {
-    margin-left: 45px;
+    width: 100%;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 .grid_item18 {
-    padding-top: 45px;
-    padding-bottom: 45px;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 /* ----- Portfolio ----- */
@@ -632,6 +651,10 @@ li a:hover {
             padding-bottom: 50px;
             padding-right: 130px;
         }
+        .grid_item12 iframe {
+            width: 70%;
+            margin-right: 40px;
+        }
         .grid_container6 {
             display: grid;
             grid-column-gap: 25px;
@@ -728,13 +751,13 @@ li a:hover {
         iframe {
             height: 655px;
         }
-        #grundleaggende_animation iframe {
+        #grundlaeggende_animation iframe {
             height: 520px;
             width: 100%;
         }
         #grundlaeggende_animation img {
-            width: 100%;
-            height: 500px;
+            width: 80%;
+            height: auto;
         }
 
         img {

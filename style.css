@@ -25,16 +25,21 @@ video {
     margin-right: auto;
     text-align: center;
 }
+iframe {
+    margin-left: 70px;
+}
 
-#grundlaaggende_ux iframe {
+/*#grundlaaggende_ux iframe {
     margin-left: 3px;
     margin-right: 3px;
     text-align: center;
     height: auto;
 }
 #grundlaeggende_animation iframe {
-    margin-left: 35px;
-}
+    margin-left: 3px;
+    margin-right: 3px;
+    text-align: center;
+}*/
 
 body {
     background-color: #B5A9A9;
@@ -109,7 +114,6 @@ a:hover {
 */
 #grundlaeggende_web h4 {
     text-align: left;
-    left: 5;
     padding-right: 200px;
 
 }
@@ -232,14 +236,14 @@ a:hover {
 }
 
 
-.col8 iframe {
+/*.col8 iframe {
     padding-top: 15px;
     margin-bottom: 35px;
     margin-left: 25px;
     margin-right: 25px;
-}
+}*/
 .col8 img {
-    width: 100%
+    width: 100%;
     height: auto;
 }
 
@@ -248,34 +252,48 @@ a:hover {
 .col4 img {
     filter: grayscale(25%);
 }
+.grid_container1 iframe {
+    height: 550px;
+    /*margin-left: 70px;*/
+}
 .grid_container3 iframe {
     height: 500px;
+    /*margin-left: 70px;*/
+}
+.grid_container4 iframe {
+    /*margin-left: 70px;*/
 }
 .grid_container7 iframe {
     height: 500px;
 }
 .grid_item7 {
-    margin-right: 25px;
+    /*margin-right: 25px;*/
+    padding-bottom: 25px;
 }
 .grid_item8 {
-    margin-right: 25px;
+    /*margin-right: 25px;*/
+    padding-bottom: 25px;
 }
 .grid_item9 {
     margin-bottom: 30px;
+    /*margin-left: 35px;*/
 }
-.col6 grid_item5 iframe{
-    width: 100%
-    margin-left: 25px;
-    padding-left: 25px;
+.grid_item9 iframe {
+    height: 450px;
 }
-.grid_item12 {
+/*.col6 grid_item5 iframe{
     width: 100%;
     margin-left: 25px;
+    padding-left: 25px;
+}*/
+.grid_item12 {
+    width: 100%;
+    /*margin-left: px;*/
     margin-right: 25px;
 }
 .grid_item15 {
     width: 100%;
-    margin-left: 25px;
+    /*margin-left: 70px;*/
     margin-right: 25px;
 }
 .grid_item18 {
@@ -510,6 +528,9 @@ li a:hover {
         h4 {
             margin-left: 40px;
         }
+        p {
+            margin-left: 45px;
+        }
 
         .grid_container1 {
             display: grid;
@@ -521,8 +542,8 @@ li a:hover {
             grid-column-end: 2.5;
             grid-row-start: 1;
             grid-row-end: 3;
-            width: 90%;
-            padding-left: 90px;
+            width: 100%;
+            /*margin-left: px;*/
             padding-bottom: 40px;
             text-align: center;
         }
@@ -532,8 +553,8 @@ li a:hover {
             grid-column-end: 4;
             grid-row-start: 1;
             grid-row-end: 3;
-            width: 100%px;;
-            padding-right: 90px;
+            width: 100%;
+            margin-right: 150px;
             padding-bottom: 40px;
             text-align: center;
         }
@@ -584,7 +605,7 @@ li a:hover {
             grid-row-end: 2;
             text-align: center;
             padding-bottom: 100px;
-            padding-left: 100px;
+            padding-left: px;
         }
 
         .grid_container4 {
@@ -596,11 +617,11 @@ li a:hover {
             grid-column-end: 2.5;
             grid-row-start: 3;
             grid-row-end: 4;
-            padding-left: 10px;
+            margin-left: 35px;
             text-align: center;
         }
         .grid_item7 iframe {
-            width: 80%;
+            width: 100%;
             height: 300px;
 
         }
@@ -611,13 +632,13 @@ li a:hover {
             grid-row-start: 3;
             grid-row-end: 4    ;
             text-align: center;
-            padding-right: 75px;
+            margin-right: 65px;
             padding-bottom: 70px;
         }
         .grid_item8 iframe {
-            width: 90%;
+            width: 100%;
             height: 300px;
-            padding-right: 100px;
+           /* padding-right: 100px;*/
         }
 
         .grid_container5 {
@@ -630,7 +651,7 @@ li a:hover {
             grid-row-start: 1;
             grid-row-end: 3;
             text-align: center;
-            padding-left: 130px;
+            margin-left: 130px;
         }
         .grid_item9 iframe {
             width: 100%;
@@ -661,10 +682,10 @@ li a:hover {
             padding-bottom: 100px;
             padding-right: 130px;
         }
-        .grid_item12 iframe {
+        /*.grid_item12 iframe {
             width: 70%;
             margin-right: 40px;
-        }
+        }*/
         .grid_container6 {
             display: grid;
             grid-column-gap: 25px;
@@ -692,8 +713,8 @@ li a:hover {
             grid-column-end: 3.5;
             grid-row-start: 1;
             grid-row-end: 2;
-            height: 550px;
-            margin-right: 200px;
+            height: auto;
+            margin-right: 155px;
             margin-bottom: 100px;
             text-align: left;
         }
@@ -804,7 +825,7 @@ li a:hover {
             transform: translateX(0);
             display: contents;
             position: sticky;
-            position: -web-kit;
+            /*position: web-kit;*/
             top: 0;
         }
 
@@ -812,17 +833,15 @@ li a:hover {
             display: inline-block;
             position: sticky;
             top: 0;
-
         }
 
         nav {
             position: fixed;
-            position: -web-kit;
+            /*position: web-kit;*/
             top: 0;
             background-color: white;
             text-decoration: underline;
             text-align: left;
-
         }
 
         li a:hover {
@@ -833,6 +852,4 @@ li a:hover {
             text-align: right;
             padding-right: 25px;
         }
-
-
     }

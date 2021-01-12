@@ -26,7 +26,8 @@ video {
     text-align: center;
 }
 iframe {
-    margin-left: 70px;
+    margin-left: 6px;
+    margin-right: 3px;
 }
 
 /*#grundlaaggende_ux iframe {
@@ -543,7 +544,7 @@ li a:hover {
             grid-row-start: 1;
             grid-row-end: 3;
             width: 100%;
-            /*margin-left: px;*/
+            margin-left: 50px;
             padding-bottom: 40px;
             text-align: center;
         }
@@ -554,7 +555,7 @@ li a:hover {
             grid-row-start: 1;
             grid-row-end: 3;
             width: 100%;
-            margin-right: 150px;
+            margin-right: 100px;
             padding-bottom: 40px;
             text-align: center;
         }
@@ -605,7 +606,7 @@ li a:hover {
             grid-row-end: 2;
             text-align: center;
             padding-bottom: 100px;
-            padding-left: px;
+            padding-left: 100px;
         }
 
         .grid_container4 {
@@ -617,7 +618,7 @@ li a:hover {
             grid-column-end: 2.5;
             grid-row-start: 3;
             grid-row-end: 4;
-            margin-left: 35px;
+            margin-left: 65px;
             text-align: center;
         }
         .grid_item7 iframe {
@@ -680,7 +681,7 @@ li a:hover {
             grid-row-end: 2;
             text-align: center;
             padding-bottom: 100px;
-            padding-right: 130px;
+            padding-right: 100px;
         }
         /*.grid_item12 iframe {
             width: 70%;
@@ -714,7 +715,7 @@ li a:hover {
             grid-row-start: 1;
             grid-row-end: 2;
             height: auto;
-            margin-right: 155px;
+            padding-right: 80px;
             margin-bottom: 100px;
             text-align: left;
         }

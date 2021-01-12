@@ -259,6 +259,9 @@ a:hover {
 .grid_item8 {
     margin-right: 25px;
 }
+.grid_item9 {
+    margin-bottom: 30px;
+}
 .col6 grid_item5 iframe{
     width: 100%
     margin-left: 25px;
@@ -515,7 +518,8 @@ li a:hover {
             grid-row-start: 1;
             grid-row-end: 3;
             width: 90%;
-            padding-left: 85px;
+            padding-left: 90px;
+            padding-bottom: 40px;
             text-align: center;
         }
 
@@ -526,6 +530,7 @@ li a:hover {
             grid-row-end: 3;
             width: 100%px;;
             padding-right: 90px;
+            padding-bottom: 40px;
             text-align: center;
         }
         /*.grid_item6 {
@@ -574,7 +579,7 @@ li a:hover {
             grid-row-start: 1;
             grid-row-end: 2;
             text-align: center;
-            padding-bottom: 50px;
+            padding-bottom: 100px;
             padding-left: 100px;
         }
 
@@ -603,6 +608,7 @@ li a:hover {
             grid-row-end: 4    ;
             text-align: center;
             padding-right: 75px;
+            padding-bottom: 70px;
         }
         .grid_item8 iframe {
             width: 90%;
@@ -648,7 +654,7 @@ li a:hover {
             grid-row-start: 1;
             grid-row-end: 2;
             text-align: center;
-            padding-bottom: 50px;
+            padding-bottom: 100px;
             padding-right: 130px;
         }
         .grid_item12 iframe {
@@ -684,7 +690,7 @@ li a:hover {
             grid-row-end: 2;
             height: 550px;
             margin-right: 200px;
-            margin-bottom: 50px;
+            margin-bottom: 100px;
             text-align: left;
         }
         .grid_item16 {
@@ -703,12 +709,12 @@ li a:hover {
         .grid_item18 {
             width: 100%;
             height: auto;
-            grid-column-start: 1    ;
+            grid-column-start: 1;
             grid-column-end: 5;
             grid-row-start: 2;
             grid-row-end: 3;
             padding-left: 50px;
-            padding-bottom: 100px;
+            padding-bottom: 200px;
         }
         .grid_container8 {
             display: grid;
@@ -731,6 +737,7 @@ li a:hover {
             grid-column-end: 4;
             grid-row-start: 2;
             grid-row-end: 3;
+            padding-bottom: 70px;
         }
         .grid_item22 {
             grid-column-start: 2;

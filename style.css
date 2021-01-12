@@ -71,7 +71,7 @@ h3 {
 }
 
 h4 {
-    margin-left: 40px;
+    margin-left: 15px;
     margin-bottom: 15px;
     padding-top: 15px;
     padding-bottom: 20px;
@@ -506,6 +506,9 @@ li a:hover {
             padding-top: 10px;
             text-align: left;
             text-decoration: underline;
+        }
+        h4 {
+            margin-left: 40px;
         }
 
         .grid_container1 {

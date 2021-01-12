@@ -28,6 +28,7 @@ video {
 
 #grundleaggende_ux iframe {
     margin-left: 3px;
+    margin-right: 3px;
     text-align: center;
     height: 650px;
 }
@@ -233,7 +234,7 @@ a:hover {
 .col8 iframe {
     padding-top: 15px;
     margin-bottom: 35px;
-    margin-left: 45px;
+    margin-left: 25px;
 }
 .col8 img {
     height: auto;
@@ -244,9 +245,10 @@ a:hover {
 .col4 img {
     filter: grayscale(25%);
 }
-}
-.grid_item5 {
-    margin-left: 100px;
+
+.col6 grid_item5 iframe{
+    margin-left: 25px;
+    padding-left: 25px;
 }
 .grid_item12 {
     margin-left: 45px;
